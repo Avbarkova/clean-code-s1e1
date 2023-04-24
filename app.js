@@ -84,7 +84,7 @@ var editTask=function(){
 
   var listItem=this.parentNode;
 
-  var editInput=listItem.querySelector(".checkbox");
+  var editInput=listItem.querySelector(".input-task");
   var label=listItem.querySelector("label");
   var editBtn=listItem.querySelector(".edit");
   var input=listItem.querySelector(".input-task");
