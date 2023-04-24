@@ -96,12 +96,12 @@ var editTask=function(){
     label.innerText=editInput.value;
     editBtn.innerText="Edit";
     input.className="task input-task saved-mode";
-    label.className = "task";
+    label.className="task";
   }else{
     editInput.value=label.innerText;
     editBtn.innerText="Save";
     input.className="task input-task edit-mode";
-    label.className = "task label-task";
+    label.className="task label-task";
 }
 
   //toggle .editmode on the parent.
@@ -117,7 +117,6 @@ var deleteTask=function(){
   var ul=listItem.parentNode;
   //Remove the parent list item from the ul.
   ul.removeChild(listItem);
-
 }
 
 
